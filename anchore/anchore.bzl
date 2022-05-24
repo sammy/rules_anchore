@@ -267,7 +267,7 @@ _grype_test = rule(
         ),
         "is_windows": attr.bool(mandatory = True),
     },
-    test = True,
+    test = False,
     implementation = _grype_test_impl,
 )
 
